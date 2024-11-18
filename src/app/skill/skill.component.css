@@ -1,0 +1,14 @@
+.project-experience-skill {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 9999px;
+  background-color: #918EF4;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.80rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
