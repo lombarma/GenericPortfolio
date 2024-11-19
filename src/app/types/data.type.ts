@@ -8,4 +8,5 @@ export interface Data {
   linkGithub: string;
   linkLinkedIn: string;
   linkEmail: string;
+  backgroundColor?: string;
 }

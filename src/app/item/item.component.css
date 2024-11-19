@@ -16,7 +16,6 @@ a:visited, a:link {
 .box {
   width: 100%;
   height: 100%;
-  background: #141B41;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;

@@ -119,5 +119,6 @@ export const DATA: Data = {
   phrases: ["Front-End Engineer at Ekino.", "Computer Sciences student"],
   linkGithub: "https://github.com/lombarma",
   linkEmail: "mailto:maxime.lombardo2@gmail.com",
-  linkLinkedIn: "https://www.linkedin.com/in/maximelombardo/"
+  linkLinkedIn: "https://www.linkedin.com/in/maximelombardo/",
 }
+

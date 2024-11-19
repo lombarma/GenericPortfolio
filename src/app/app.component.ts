@@ -1,4 +1,4 @@
-import {Component, HostListener, OnInit} from '@angular/core';
+import {Component, HostListener, OnInit, Renderer2} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {ItemComponent} from './item/item.component';
 import {DATA} from './constants/data.constant';
@@ -21,6 +21,13 @@ export class AppComponent implements OnInit {
   y: number = 0;
   visible: boolean = false;
 
+  constructor(private renderer: Renderer2) {
+  }
+
+  ngOnInit() {
+    this.renderer.setStyle(document.body, 'background-color', this.data.backgroundColor);
+  }
+
   onClick(elementId: string): void{
     const element = document.getElementById(elementId);
     if(element) {
@@ -28,13 +35,11 @@ export class AppComponent implements OnInit {
     }
   }
 
+
   @HostListener('document:mousemove', ['$event'])
   onMouseMove(e: MouseEvent) {
     this.x = e.clientX;
     this.y = e.clientY;
     this.visible = true;
-  }
-
-  ngOnInit() {
   }
 }
