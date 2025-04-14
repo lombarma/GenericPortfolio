@@ -1,0 +1,83 @@
+@if(data){
+  <main>
+    <div id="circle" [ngStyle]="{'left.px': x, 'top.px': y}"></div>
+    <div class="global-container">
+      <div class="left-side">
+        <h1>{{ data.name }}</h1>
+        <app-dynamic-text [phrases]="data.phrases"></app-dynamic-text>
+
+        <div class="following-lines">
+          <a href="#about">
+            <div class="element">
+              <div class="horizontal-line"></div>
+              <p>About</p>
+            </div>
+          </a>
+          <a href="#schools">
+            <div class="element">
+              <div class="horizontal-line"></div>
+              <p>Schools</p>
+            </div>
+          </a>
+          <a href="#experiences">
+            <div class="element">
+              <div class="horizontal-line"></div>
+              <p>Experiences</p>
+            </div>
+          </a>
+          <a href="#projects">
+            <div class="element">
+              <div class="horizontal-line"></div>
+              <p>Projects</p>
+            </div>
+          </a>
+        </div>
+        <app-links-bar [data]="data"></app-links-bar>
+      </div>
+      <div class="right-side">
+        <div class="about-box" id="about">
+          <p style="white-space: pre-line;">
+            {{ data.descriptionAboutYou }}
+          </p>
+        </div>
+
+        <div class="item">
+        </div>
+
+        <div class="space"></div>
+        <div id="schools">
+          <h2>Schools</h2>
+          @for(item of data.items; track item.title){
+            @if(item.type == "school"){
+              <app-item [item]="item"></app-item>
+            }
+          }
+        </div>
+        <div class="space"></div>
+        <div id="experiences">
+          <h2>Experiences</h2>
+          @for(item of data.items; track item.title){
+            @if(item.type == "experience"){
+              <app-item [item]="item"></app-item>
+            }
+          }
+        </div>
+        <div class="space"></div>
+        <div id="projects">
+          <h2>Projects</h2>
+          @for(item of data.items; track item.title){
+            @if(item.type == "project"){
+              <app-item [item]="item"></app-item>
+            }
+          }
+        </div>
+        <footer>
+          <p>Designed by Maxime LOMBARDO, inspired by Brittany CHIANG.
+            <br>Made with Angular.</p>
+        </footer>
+      </div>
+    </div>
+  </main>
+}
+
+

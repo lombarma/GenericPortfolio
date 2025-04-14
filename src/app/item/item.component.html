@@ -18,7 +18,7 @@
             {{ item?.description }}
           </p>
           <div class="skills">
-            @for (skill of item?.skills; track item?.title){
+            @for (skill of item?.skills; let i=$index; track i){
               <app-skill [skill]="skill"></app-skill>
             }
           </div>
