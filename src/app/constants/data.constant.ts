@@ -119,9 +119,9 @@ export const ITEMS: Item[] = [
   },
   {
     type: 'project',
-    title: 'Tasks Manager',
+    title: 'lorem ipsum',
     description:
-      'A simple tasks manager app with authentification page. You can try with with user:test password:test .',
+      'lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.',
     skills: ['NodeJS', 'ExpressJS', 'Javascript', 'APIs Restful'],
     years: '2023',
     picture: {
