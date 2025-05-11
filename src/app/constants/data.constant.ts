@@ -120,7 +120,7 @@ export const ITEMS: Item[] = [
     title: 'Intra-school social network',
     description:
       'A social network for my school, to enable associations to post announcements for upcoming events.',
-    skills: ['Python', 'Django', 'MySQL'],
+    skills: ['Python', 'Django', 'MySQL', 'Fullstack'],
     years: '2024',
     picture: {
       path: 'assets/projects-pictures/nexus.png',
