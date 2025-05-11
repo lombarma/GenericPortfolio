@@ -97,38 +97,49 @@ export const ITEMS: Item[] = [
     url: 'https://www.airbus.com/en/products-services/helicopters',
   },
   {
-    type: 'experience',
-    title: 'Warehouseman - Printemps',
-    description: 'Storage and preparation of items.',
-    skills: [],
-    years: 'Summer 2022',
-    picture: {
-      path: 'assets/experiences-pictures/printemps.png',
-      altDescrption: 'Logo printemps',
-    },
-    url: 'https://www.printemps.com/fr/fr',
-  },
-  {
-    type: 'experience',
-    title: 'ECT Distribution - Storekeeper',
+    type: 'project',
+    title: 'Portfolio Generator',
     description:
-      'Storage of items, preparation of orders, deliveries to customers, selling items.',
-    skills: [],
-    years: 'Summers 2020/2021',
-    url: 'https://www.google.com/search?q=ect+distribution&rlz=1C5GCEM_enFR1087FR1087&oq=ect+di&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyEAgBEC4YrwEYxwEYgAQYjgUyBggCEEUYQDIGCAMQRRg5MgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg8qAIAsAIA&sourceid=chrome&ie=UTF-8',
+      'A web application that generates a portfolio for you. You can choose your experience, the skills you want to show, and the projects you want to display. It is a simple and easy way to create a portfolio.',
+    skills: [
+      'Angular',
+      'NodeJs (Express)',
+      'Docker',
+      'Kubernetes',
+      'PostgreSQL',
+    ],
+    years: '2025',
+    picture: {
+      path: 'assets/projects-pictures/portfolio-generator.png',
+      altDescrption: 'Picture of the app',
+    },
+    url: 'https://github.com/lombarma/portfolio-generator-v2',
   },
   {
     type: 'project',
-    title: 'lorem ipsum',
+    title: 'Intra-school social network',
     description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.',
-    skills: ['NodeJS', 'ExpressJS', 'Javascript', 'APIs Restful'],
-    years: '2023',
+      'A social network for my school, to enable associations to post announcements for upcoming events.',
+    skills: ['Python', 'Django', 'MySQL'],
+    years: '2024',
     picture: {
-      path: 'assets/projects-pictures/tasks-manager.png',
+      path: 'assets/projects-pictures/nexus.png',
+      altDescrption: 'Logo of the app',
+    },
+    url: 'https://github.com/MathisPipart/Nexus',
+  },
+  {
+    type: 'project',
+    title: 'Prediction of house prices',
+    description:
+      'Based on the data from Kaggle, I created a model to predict house prices. I used multiple algorithms to predict the price of a house based on its characteristics.',
+    skills: ['Python', 'Machine Learning', 'Statistics'],
+    years: '2024',
+    picture: {
+      path: 'assets/projects-pictures/house-prices-prediction.png',
       altDescrption: 'Picture of the app',
     },
-    url: 'https://github.com/lombarma/MyLoginPage',
+    url: 'https://github.com/lombarma/HousePricePredicition',
   },
 ];
 
