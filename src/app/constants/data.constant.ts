@@ -49,7 +49,7 @@ export const ITEMS: Item[] = [
     type: 'school',
     title: 'ESIEE Paris - Preparatory classes',
     description: 'Preparatory classes required to enter the engineering cycle.',
-    skills: ['Mathematics', 'Physics', 'Computer Sciences'],
+    skills: ['Mathematics', 'Physics', 'Computer Science'],
     years: '2020-2022',
     picture: {
       path: 'assets/schools-pictures/esiee.png',
@@ -152,7 +152,7 @@ export const DATA: Data = {
     'Then, in 2020, I logically followed this path and entered an engineering school specializing in IT and computer sciences. Since this date, I learned a lot, over multiple subjects : AI, Assembler, Web development, Software development, Mathematics, electronic and more...\n' +
     '\n' +
     "When I don't learn new skills, I love spending time with friends or play videogames. I also love riding motorcycles.",
-  phrases: ['Front-End Engineer at Ekino.', 'Computer Sciences student'],
+  phrases: ['Front-End Engineer at Ekino.', 'Computer Science student'],
   linkGithub: 'https://github.com/lombarma',
   linkEmail: 'mailto:maxime.lombardo2@gmail.com',
   linkLinkedIn: 'https://www.linkedin.com/in/maximelombardo/',
