@@ -7,7 +7,7 @@ export const ITEMS: Item[] = [
     title:
       'UCSD: University of California San Diego - Engineering degree in computer science',
     description:
-      '1 semester in the top 18th university in the world (shangairanking) to deepen my knowledge in data science.',
+      '1 semester in the top 18th university in the world (shangai ranking) to deepen my knowledge in data science.',
     skills: [
       'Data Structures',
       'Algorithms',
